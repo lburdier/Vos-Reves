@@ -1,0 +1,30 @@
+﻿<%inherit file="template.html"/>
+<h3 class="center">Suppression d'un remboursement</h3>
+<style>
+  body {
+    background: linear-gradient(to right, #ff905c, #ff6347)
+  }
+  p {
+      color: white;
+  }
+h3.center {
+      color : white;
+      font-weight: 900 ;
+  }
+</style>
+<pre>
+Suppression de données contenues dans la base.
+1 seul type de suppression : suppression par numéro du ticket
+</pre>
+
+<h3 class="center">Suppression d'un ticket de remboursement par le numéro de ticket</h3>
+
+<p class="message alert alert-${type}">${message}</p>
+
+ <form action="suppressByNumTicket" method="POST">
+  <div class="form-group">
+    <label for="titre">Numéro de ticket:</label>
+    <input type="text" class="form-control" placeholder="Numéro du ticket" name="numticket" id="numticket">
+  </div>
+  <button type="submit" class="btn btn-primary">Supprimer</button>
+</form> 
