@@ -1,0 +1,21 @@
+﻿<%inherit file="template.html"/>
+<%doc> début de ce qui va être le "self.body()" ...  </%doc>
+<h3 class="center">Affichage</h3>
+<style>
+	p {
+		color :white;
+	}
+    h3.center {
+        color : white;
+        font-weight: 900 ;
+    }
+</style>
+<pre>
+    Affichage des données contenues dans la base.
+</pre>
+
+<h3 class="center">Liste remboursement</h3>
+
+% for remboursement in Remboursement:
+    <p>${remboursement}</p>
+% endfor

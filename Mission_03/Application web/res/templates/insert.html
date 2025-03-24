@@ -1,0 +1,87 @@
+﻿<%inherit file="template.html"/>
+<style>
+  h3.center {
+      color : white;
+      font-weight: 900 ;
+  }
+  h6{
+      color: white;
+      font-weight: 100 ;
+      font-size: 20px;
+  }
+</style>
+<h3 class="center">Insertion d'un remboursement</h3>
+
+<h6>
+Insertion de données dans la base.
+</h6>
+<p class="message alert alert-${type}">${message}</p>
+
+ <form action="insertDone" method="POST" class="needs-validation" novalidate>
+  
+<div class="form-group">
+  <label for="numticket"><h6>Numéro de ticket (Suivre le procédé : 999_J99) :</h6></label>
+  <input type="text" class="form-control" id="numticket" placeholder="Saisir le numéro de ticket" name="numticket" required>
+  <div class="valid-feedback">Valid.</div>
+  <div class="invalid-feedback">Remplir ce champ, SVP!</div>
+</div>
+<div class="form-group">
+    <label class="form">
+    <label for="date"><h6>Date pour le remboursement de cette journée :</h6></label>
+    <input type="date" class="form-control" id="date" placeholder="Date de la journée en question" name="date" required>
+    </label>
+    <div class="form-group">
+        <label for="prixnuit"><h6>Prix de la nuit :</h6></label>
+        <input type="number" class="form-control" id="prixnuit" placeholder="Saisir le prix de votre nuit" name="prixnuit" step="0.01" required>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Remplir ce champ, SVP!</div>
+      </div>
+      
+  </div>  
+  <div class="form-group">
+    <label for="premierrepas"><h6>Déjeuner :</h6></label>
+    <input type="number" class="form-control" id="premierrepas" placeholder="Saisir le prix de votre déjeuner" name="premierrepas" step="0.01" required>
+    <div class="valid-feedback">Valid.</div>
+    <div class="invalid-feedback">Remplir ce champ, SVP!</div>
+  </div>
+  <div class="form-group">
+    <label for="deuxiemerepas"><h6>Dîner :</h6></label>
+    <input type="number" class="form-control" id="deuxiemerepas" placeholder="Saisir le prix de votre nuit" name="deuxiemerepas" step="0.01" required>
+    <div class="valid-feedback">Valid.</div>
+    <div class="invalid-feedback">Remplir ce champ, SVP!</div>
+  </div>
+      <div class="form-group">
+        <label for="prixplein"><h6>Prix du plein :</h6></label>
+        <input type="number" class="form-control" id="prixplein" placeholder="Saisir le prix de votre plein" name="prixplein" step="0.01" required>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Remplir ce champ, SVP!</div>
+      </div>
+      <div class="form-group">
+        <label for="prixpeage"><h6>Prix total des péages :</h6></label>
+        <input type="number" class="form-control" id="prixpeage" placeholder="Saisir le prix total des péages" name="prixpeage" step="0.01" required>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Remplir ce champ, SVP!</div>
+      </div>
+      <button type="submit" class="btn btn-primary">Enregistrer</button>
+    </form>
+
+<script>
+// Disable form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Get the forms we want to add validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script> 
