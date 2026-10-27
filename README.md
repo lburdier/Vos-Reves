@@ -1,134 +1,137 @@
-# 📘 Vos-Rêves – README
+**English** · [Français](README.fr.md)
 
-## Table des matières
+# Vos-Rêves
 
-1. [Présentation du projet](#présentation-du-projet)  
-2. [Présentation des membres du groupe](#présentation-des-membres-du-groupe)  
-3. [Vue d’ensemble](#vue-densemble)  
-4. [Travail effectué – Mission 1](#travail-effectué--mission-1)  
-5. [Travail effectué – Mission 2](#travail-effectué--mission-2)  
-6. [Travail effectué – Mission 3](#travail-effectué--mission-3)  
-7. [Travail effectué – Mission 4](#travail-effectué--mission-4)  
-8. [Travail effectué – Mission 5](#travail-effectué--mission-5)  
-9. [Conclusion](#conclusion)  
-10. [Annexes](#annexes)
+School team project (YNOV): a series of IT missions for **Vos Rêves**, a fictional company, carried out as if for a real client.
 
----
+## Table of contents
 
-## Présentation du projet
-
-Dans le cadre d’une collaboration professionnelle avec l’entreprise **Vos Rêves**, notre équipe a été mobilisée autour de plusieurs missions. Le projet visait à nous plonger dans un contexte professionnel réaliste, en abordant des thématiques liées à l’informatique et à la gestion de projet.
-
-> **Vos Rêves** est une société spécialisée dans les voyages de luxe aux États-Unis et en Polynésie française, avec des filiales à Bordeaux, Lyon et Marseille.
-
-Notre mission consistait à assister Monsieur Lemoine, administrateur SI, dans :
-- L’amélioration de l’équipement informatique,
-- L’expression des besoins,
-- La protection du système d’information,
-- La mise en place d’un outil de gestion de projet.
+1. [About the project](#about-the-project)
+2. [Team](#team)
+3. [Overview](#overview)
+4. [Mission 1](#mission-1--mobile-workstation-sta)
+5. [Mission 2](#mission-2--printers)
+6. [Mission 3](#mission-3--expense-reimbursement-web-app)
+7. [Mission 4](#mission-4--cybersecurity-awareness)
+8. [Mission 5](#mission-5--project-planning)
+9. [Conclusion](#conclusion)
+10. [Appendices](#appendices)
 
 ---
 
-## Présentation des membres du groupe
+## About the project
 
-| Nom Prénom      | Fonctions        | Missions         | Compétences |
-|----------------|------------------|------------------|-------------|
-| RAPPENNE Liam   | Chef de projet   | Mission 3 et 5   | Développement, coordination, maquette |
-| GABRIELE Nathan |                  | Mission 1 et 2   | Structuration des infos, analyse métier |
-| BURDIER Lucas   |                  | Mission 4 et 2   | Développement web, identité visuelle, conception graphique |
+As part of a professional collaboration with the company **Vos Rêves**, our team worked on several missions. The goal was to place us in a realistic business context, covering IT and project-management topics.
 
----
+> **Vos Rêves** is a company specialised in luxury travel to the United States and French Polynesia, with branches in Bordeaux, Lyon and Marseille.
 
-## Vue d’ensemble
-
-Le projet s’est déroulé du **10 octobre au 12 décembre 2023**. Nous avons utilisé plusieurs outils collaboratifs, notamment **GitLab** et **Microsoft Teams**. Malgré le départ d’un membre, **Noa Raoutine**, l’équipe a su s’adapter et redistribuer les tâches.
-
-| Nom Prénom      | Missions         | Moyenne horaire | Nombre de jours |
-|----------------|------------------|------------------|------------------|
-| RAPPENNE Liam   | Mission 3 et 5   | 6h / jour        | 10 à 13 jours   |
-| GABRIELE Nathan | Mission 1 et 2   | 5h / jour        | 10 jours        |
-| BURDIER Lucas   | Mission 4 et 2   | 6h / jour        | 10 à 15 jours   |
+Our job was to assist Mr Lemoine, the IT system administrator, with:
+- upgrading the company's IT equipment,
+- gathering requirements,
+- protecting the information system,
+- setting up a project-management tool.
 
 ---
 
-## Travail effectué – Mission 1
+## Team
 
-Réalisée par **Nathan GABRIELE**, cette mission portait sur la recherche d’une solution STA adaptée aux besoins des commerciaux itinérants.  
-Elle inclut :
-- Une **analyse des besoins** et de la demande client,
-- Une **comparaison de 3 solutions STA**,
-- Une **sélection finale argumentée** avec recommandations,
-- Une **étude des paramètres réseau et sécurité**.
-
----
-
-## Travail effectué – Mission 2
-
-Réalisée par **Lucas BURDIER** et **Nathan GABRIELE** :
-- **Nathan** : recherche de **propositions commerciales** pour des imprimantes laser couleur et jet d’encre,
-- **Lucas** : création de la **maquette du formulaire de saisie** sous Excel, avec insertion d’imprimantes et de consommables.
-- Un apprentissage de **VBA / macros** a permis à Lucas de concrétiser les formulaires sous Excel à partir de la maquette.
+| Name            | Role            | Missions        | Skills |
+|-----------------|-----------------|-----------------|--------|
+| RAPPENNE Liam   | Project lead    | Missions 3 and 5 | Development, coordination, mock-ups |
+| GABRIELE Nathan |                 | Missions 1 and 2 | Information structuring, business analysis |
+| BURDIER Lucas   |                 | Missions 4 and 2 | Web development, visual identity, graphic design |
 
 ---
 
-## Travail effectué – Mission 3
+## Overview
 
-Réalisée par **Liam RAPPENNE**, cette mission consistait à développer une **application web** pour la **gestion des remboursements des commerciaux itinérants**.  
-Fonctionnalités :
-- Insertion des remboursements,
-- Calcul des plafonds (30 € repas / 110 € nuitée),
-- Consultation et suppression par ticket,
-- Interface web complète.
+The project ran from **10 October to 12 December 2023**. We used several collaboration tools, mainly **GitLab** and **Microsoft Teams**. When one member, **Noa Raoutine**, left the project, the team adapted and redistributed the work.
 
----
-
-## Travail effectué – Mission 4
-
-Réalisée par **Lucas BURDIER**, elle comprend :
-- Un **diaporama PowerPoint** de sensibilisation aux risques de cybersécurité,
-- La création d’une **charte informatique interactive** intégrée via WordPress et Elementor,
-- Design d’un **logo d’entreprise** avec Adobe Illustrator.
-
-🔗 [Charte informatique](https://charteentreprisevosreves.on.drv.tw/www.charteentreprisevosreves.html/)
+| Name            | Missions         | Average hours | Number of days |
+|-----------------|------------------|---------------|----------------|
+| RAPPENNE Liam   | Missions 3 and 5 | 6 h / day     | 10 to 13 days  |
+| GABRIELE Nathan | Missions 1 and 2 | 5 h / day     | 10 days        |
+| BURDIER Lucas   | Missions 4 and 2 | 6 h / day     | 10 to 15 days  |
 
 ---
 
-## Travail effectué – Mission 5
+## Mission 1 — Mobile workstation (STA)
 
-Réalisée par **Liam RAPPENNE**, cette mission visait à structurer les missions via un **diagramme de Gantt**, répartissant les tâches et réajustant l’organisation après le départ d’un membre.  
-La régularité du suivi a permis de garantir une réalisation dans les délais.
+By **Nathan GABRIELE**. Finding a mobile workstation solution (STA) suited to travelling sales staff:
+- **requirements analysis** of the client's request,
+- **comparison of 3 STA solutions**,
+- a **reasoned final choice** with recommendations,
+- a **study of network and security settings**.
+
+---
+
+## Mission 2 — Printers
+
+By **Lucas BURDIER** and **Nathan GABRIELE**:
+- **Nathan**: researched **commercial offers** for colour laser and inkjet printers.
+- **Lucas**: designed the **data-entry form mock-up** in Excel, to add printers and consumables.
+- Lucas learned **VBA / macros** to turn the mock-up into working Excel forms.
+
+---
+
+## Mission 3 — Expense reimbursement web app
+
+By **Liam RAPPENNE**: a **web application** to manage **expense reimbursements for travelling sales staff**.
+- Add reimbursements.
+- Automatic caps (€30 per meal, €110 per night).
+- View and delete by ticket.
+- Complete web interface.
+
+---
+
+## Mission 4 — Cybersecurity awareness
+
+By **Lucas BURDIER**:
+- a **PowerPoint presentation** raising awareness of cybersecurity risks,
+- an **interactive IT usage charter** built with WordPress and Elementor,
+- a **company logo** designed in Adobe Illustrator.
+
+[IT charter (online)](https://charteentreprisevosreves.on.drv.tw/www.charteentreprisevosreves.html/)
+
+---
+
+## Mission 5 — Project planning
+
+By **Liam RAPPENNE**: organising the missions with a **Gantt chart**, assigning tasks and re-planning after a member left. Regular follow-up kept the project on schedule.
 
 ---
 
 ## Conclusion
 
-Ce projet nous a permis :
-- De travailler dans une logique de **collaboration professionnelle**,
-- D’approfondir notre compréhension des **besoins clients**,
-- De développer des compétences en **communication, gestion de projet, développement web et bureautique**.
+This project helped us:
+- work in a **professional, collaborative** way,
+- better understand **client needs**,
+- build skills in **communication, project management, web development and office tools**.
 
-Il nous a également permis de comprendre les enjeux réels de l’informatique en entreprise et de nous projeter dans notre futur métier.
+It also showed us the real stakes of IT in a company and gave us a glimpse of our future jobs.
 
 ---
 
-## Annexes
+## Appendices
+
+Documents are in French.
 
 ### Mission 1
-- 📎 Présentation des 3 STA : `Presentation_STA`  
-- 📎 Procédure : `Procedure`
+- STA comparison: `Presentation_STA`
+- Procedure: `Procedure`
 
 ### Mission 2
-- 📎 Fichier Excel : `Imprimantes_EXCEL`  
-- 📎 Compte-rendu : `compte_rendu_mission_02`
+- Excel file: `Imprimantes_EXCEL`
+- Report: `compte_rendu_mission_02`
 
 ### Mission 3
-- 🌐 Application web : `Application`  
-- 📎 Compte-rendu : `compte_rendu_mission_03`
+- Web application: `Application`
+- Report: `compte_rendu_mission_03`
 
 ### Mission 4
-- 📎 Diaporama PowerPoint : `Diaporama`  
-- 🌐 Charte informatique HTML : `Charte_informatique_vosreves`  
-- 📎 Compte-rendu : `compte_rendu_mission_04`
+- PowerPoint presentation: `Diaporama`
+- HTML IT charter: `Charte_informatique_vosreves`
+- Report: `compte_rendu_mission_04`
 
 ### Mission 5
-- 📎 Diagramme GANTT : `GANTT`
+- Gantt chart: `GANTT`
