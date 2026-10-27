@@ -9,11 +9,11 @@ School team project (YNOV): a series of IT missions for **Vos Rêves**, a fictio
 1. [About the project](#about-the-project)
 2. [Team](#team)
 3. [Overview](#overview)
-4. [Mission 1](#mission-1--mobile-workstation-sta)
-5. [Mission 2](#mission-2--printers)
-6. [Mission 3](#mission-3--expense-reimbursement-web-app)
-7. [Mission 4](#mission-4--cybersecurity-awareness)
-8. [Mission 5](#mission-5--project-planning)
+4. [Mission 1](#mission-1-mobile-workstation-sta)
+5. [Mission 2](#mission-2-printers)
+6. [Mission 3](#mission-3-expense-reimbursement-web-app)
+7. [Mission 4](#mission-4-cybersecurity-awareness)
+8. [Mission 5](#mission-5-project-planning)
 9. [Conclusion](#conclusion)
 10. [Appendices](#appendices)
 
@@ -55,7 +55,7 @@ The project ran from **10 October to 12 December 2023**. We used several collabo
 
 ---
 
-## Mission 1 — Mobile workstation (STA)
+## Mission 1: Mobile workstation (STA)
 
 By **Nathan GABRIELE**. Finding a mobile workstation solution (STA) suited to travelling sales staff:
 - **requirements analysis** of the client's request,
@@ -65,7 +65,7 @@ By **Nathan GABRIELE**. Finding a mobile workstation solution (STA) suited to tr
 
 ---
 
-## Mission 2 — Printers
+## Mission 2: Printers
 
 By **Lucas BURDIER** and **Nathan GABRIELE**:
 - **Nathan**: researched **commercial offers** for colour laser and inkjet printers.
@@ -74,7 +74,7 @@ By **Lucas BURDIER** and **Nathan GABRIELE**:
 
 ---
 
-## Mission 3 — Expense reimbursement web app
+## Mission 3: Expense reimbursement web app
 
 By **Liam RAPPENNE**: a **web application** to manage **expense reimbursements for travelling sales staff**.
 - Add reimbursements.
@@ -84,7 +84,7 @@ By **Liam RAPPENNE**: a **web application** to manage **expense reimbursements f
 
 ---
 
-## Mission 4 — Cybersecurity awareness
+## Mission 4: Cybersecurity awareness
 
 By **Lucas BURDIER**:
 - a **PowerPoint presentation** raising awareness of cybersecurity risks,
@@ -95,7 +95,7 @@ By **Lucas BURDIER**:
 
 ---
 
-## Mission 5 — Project planning
+## Mission 5: Project planning
 
 By **Liam RAPPENNE**: organising the missions with a **Gantt chart**, assigning tasks and re-planning after a member left. Regular follow-up kept the project on schedule.
 
